@@ -1,6 +1,6 @@
 {
   "name": "@axetroy/http-status",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get http status",
   "main": "index.js",
   "scripts": {
