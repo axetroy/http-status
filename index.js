@@ -21,6 +21,8 @@ Status.prototype.toString = function() {
   return this.message;
 };
 
+const hs = {};
+
 // 100
 hs.Continue = new Status(100, 'Continue');
 hs.SwitchingProtocols = new Status(101, 'Switching Protocols');
@@ -61,21 +63,30 @@ hs.RequestTimeout = new Status(408, 'Request Timeout');
 hs.Conflict = new Status(409, 'Conflict');
 hs.Gone = new Status(410, 'Gone');
 hs.LengthRequired = new Status(411, 'Length Required');
-hs.PreconditionFailed = ne  w Status(412, 'Precondition Failed');
+hs.PreconditionFailed = new Status(412, 'Precondition Failed');
 hs.RequestEntityTooLarge = new Status(413, 'Request Entity Too Large');
 hs.RequestURITooLong = new Status(414, 'Request URI Too Long');
 hs.UnsupportedMediaType = new Status(415, 'Unsupported Media Type');
-hs.RequestedRangeNotSatisfiable = new Status(416, 'Requested Range Not Satisfiable');
+hs.RequestedRangeNotSatisfiable = new Status(
+  416,
+  'Requested Range Not Satisfiable'
+);
 hs.ExpectationFailed = new Status(417, 'Expectation Failed');
-hs.Teapot = new Status(418, 'I\'m a teapot');
+hs.Teapot = new Status(418, "I'm a teapot");
 hs.UnprocessableEntity = new Status(422, 'Unprocessable Entity');
 hs.Locked = new Status(423, 'Locked');
 hs.FailedDependency = new Status(424, 'Failed Dependency');
 hs.UpgradeRequired = new Status(426, 'Upgrade Required');
 hs.PreconditionRequired = new Status(428, 'Precondition Required');
 hs.TooManyRequests = new Status(429, 'Too Many Requests');
-hs.RequestHeaderFieldsTooLarge = new Status(431, 'Request Header Fields Too Large');
-hs.UnavailableForLegalReasons = new Status(451, 'Unavailable For Legal Reasons');
+hs.RequestHeaderFieldsTooLarge = new Status(
+  431,
+  'Request Header Fields Too Large'
+);
+hs.UnavailableForLegalReasons = new Status(
+  451,
+  'Unavailable For Legal Reasons'
+);
 
 // 500
 hs.InternalServerError = new Status(500, 'Internal Server Error');
@@ -88,6 +99,9 @@ hs.VariantAlsoNegotiates = new Status(506, 'Variant Also Negotiates');
 hs.InsufficientStorage = new Status(507, 'Insufficient Storage');
 hs.LoopDetected = new Status(508, 'Loop Detected');
 hs.NotExtended = new Status(510, 'Not Extended');
-hs.NetworkAuthenticationRequired = new Status(511, 'Network Authentication Required');
+hs.NetworkAuthenticationRequired = new Status(
+  511,
+  'Network Authentication Required'
+);
 
 module.exports = hs;
