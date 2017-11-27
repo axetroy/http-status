@@ -13,7 +13,7 @@ Get http status
 ## Usage
 
 ```bash
-npm isntall @axetroy/http-status --dev
+npm isntall @axetroy/http-status --save
 ```
 
 ```javascript
