@@ -1,0 +1,19 @@
+{
+  "name": "@axetroy/http-status",
+  "version": "0.1.0",
+  "description": "Get http status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axetroy/http-status.git"
+  },
+  "author": "Axetroy",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/axetroy/http-status/issues"
+  },
+  "homepage": "https://github.com/axetroy/http-status#readme"
+}
